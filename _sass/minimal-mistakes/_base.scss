@@ -21,9 +21,6 @@ body {
   }
 }
 
-h2.archive__item-title > a {
-  color: $muted-text-color !important;
-}
 
 h1,
 h2,
@@ -349,4 +346,8 @@ input[type="submit"],
 .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
+}
+
+h2.archive__item-title > a {
+  color: $muted-text-color !important;
 }
