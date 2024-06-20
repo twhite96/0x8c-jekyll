@@ -41,7 +41,6 @@ I kept up with it, made my bones and bacon in and with it, lost jobs with it, bu
 
 I began to get angry at the very thought of something breaking because 10 million upstream dependenices depended on this:
 
-![](/img/blog/has.png)
 
 Which is just checking to see if there is some property on an object. This is basically one line of code that is an upstream dependency on millions of projects. That's just one example.
 
