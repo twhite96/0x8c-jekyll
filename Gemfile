@@ -18,5 +18,5 @@ group :jekyll_plugins do
   gem "jekyll-algolia"
   gem 'jekyll-compose'
 end
-
+gem 'faraday-retry'
 gem "webrick", "~> 1.8"
