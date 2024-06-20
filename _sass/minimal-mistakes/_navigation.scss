@@ -46,12 +46,6 @@
   }
 }
 
-// a:not(.pagination) {
-//   color: $link-color
-// }
-
-
-
 /*
      Post pagination navigation links
      ========================================================================== */
@@ -62,6 +56,7 @@
   margin-top: 1em;
   padding-top: 1em;
   width: 100%;
+
   ul {
     margin: 0;
     padding: 0;
@@ -133,13 +128,12 @@
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: $muted-text-color !important;
+    color: $muted-text-color;
     border: 1px solid mix(#000, $border-color, 25%);
     border-radius: $border-radius;
 
     &:hover {
-      background-color: #14D013 !important;
-      color: white !important;
+      @include yiq-contrasted($muted-text-color);
     }
 
     &:first-child {
@@ -159,6 +153,7 @@
       cursor: not-allowed;
     }
   }
+}
 
 .page__content + .pagination,
 .page__meta + .pagination,
@@ -575,5 +570,4 @@
   li ul li ul li ul li ul li ul > li a {
     padding-left: 3.25rem
   }
- }
 }
